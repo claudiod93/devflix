@@ -24,11 +24,6 @@
     "nodemon": "^2.0.3",
     "prettier": "^2.0.4"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.js": "eslint --cache --fix"
   },
